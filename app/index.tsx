@@ -10,10 +10,10 @@ export default function Index() {
     <StatusBar backgroundColor={'#fdba4f'}/>
     <View style={{flexDirection:'row',justifyContent:'center'}}>
       <Text style={{fontSize:16,fontWeight:'bold'}}>DeliverEats</Text>
-      <Image source={pizza} style={{height:25,width:25}}/>
+      <Image source={pizza} style={{height:20,width:20,marginLeft:3}}/>
     </View>
     <MotiImage source={deliver}
-     from={{ opacity: 0, scale: 0.8, translateX:-200 }}
+     from={{ opacity: 0, scale: 0.8, translateX:250 }}
      animate={{ opacity: 1, scale: 1 ,translateX:0}}
      transition={{ type: 'timing', duration: 1500 }}
      style={{height:270,width:270,marginTop:70,alignSelf:'center'}}/>
