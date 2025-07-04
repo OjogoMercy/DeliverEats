@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Button = () => {
+export default function Homescreen() {
   return (
     <View>
-      <Text>Button</Text>
+      <Text>Homescreen</Text>
     </View>
   )
 }
-
-export default Button

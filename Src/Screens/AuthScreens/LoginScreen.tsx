@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Button = () => {
+export default function LoginScreen() {
   return (
     <View>
-      <Text>Button</Text>
+      <Text>LoginScreen</Text>
     </View>
   )
 }
-
-export default Button
